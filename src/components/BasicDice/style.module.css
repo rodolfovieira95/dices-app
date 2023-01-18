@@ -1,0 +1,134 @@
+.dice {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.two {
+  display: flex;
+  position: relative;
+}
+.two > div:first-of-type {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.two > div:nth-of-type(2) {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.three {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.three > div:first-of-type {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.three > div:nth-of-type(2) {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.four {
+  position: relative;
+}
+
+.four > div:first-of-type {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.four > div:nth-of-type(2) {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.four > div:nth-of-type(3) {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.four > div:nth-of-type(4) {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.five {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.five > div:first-of-type {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.five > div:nth-of-type(2) {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.five > div:nth-of-type(3) {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.five > div:nth-of-type(4) {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.six {
+  position: relative;
+}
+
+.six > div:nth-of-type(1) {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+.six > div:nth-of-type(2) {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.six > div:nth-of-type(3) {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.six > div:nth-of-type(4) {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.six > div:nth-of-type(5) {
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 12px);
+}
+.six > div:nth-of-type(6) {
+  position: absolute;
+  left: 10px;
+  top: calc(50% - 12px);
+}
