@@ -1,7 +1,3 @@
-# Tauri + Next.js + Typescript
+# Dices App
 
-This template should help get you started developing with Tauri, Next.js and Typescript.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+A very basic app created with Tauri, NextJS and Typescript. The main idea of this app is to learn how to create an application with Tauri.
